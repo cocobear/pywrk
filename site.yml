@@ -1,0 +1,14 @@
+---
+
+threads: 6
+connections:
+  - 10
+  - 20
+# duration only support seconds
+duration: 5
+script: pipeline.lua
+
+urls:
+  - http://192.168.0.12
+  - http://192.168.1.201
+
